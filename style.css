@@ -342,6 +342,7 @@ input::-webkit-input-placeholder {
 @media only screen and (min-width: 700px) {
   .main {
     overflow: scroll;
+    overflow-x: hidden;
     scrollbar-width: thin;
     --webkit-scrollbar-width: thin;
     scrollbar-color: #fff #fff;
@@ -716,6 +717,8 @@ input::-webkit-input-placeholder {
   padding: 5%;
   margin-top: 4%;
   overflow: scroll;
+  overflow-x: hidden;
+
 
   scrollbar-width: thin;
   --webkit-scrollbar-width: thin;
